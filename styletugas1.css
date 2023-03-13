@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+wrap {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+
+body {
+    font-family: 'sans-serif';
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(WhatsApp\ Image\ 2023-03-12\ at\ 18.29.42.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.menu {
+    float: right;
+}
+
+.logo {
+        font-size: 50px;
+        font-weight: bold;
+        float: left;
+        font-family: courier;
+        color:red;
+
+}
+
+nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(51, 9, 238, 0.39);
+    backdrop-filter: blur(2px);
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    position: relative;
+    color: red;
+    font-weight: 600;
+    padding: 6px 15px;
+    margin-left: 100px;
+    font-size: 1.1em;
+    text-decoration: none;
+    transition: .5s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color:white;
+    
+}
+
+.ggmu{
+    display: table;
+    clear: both;
+}
+
+.timterbaik{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0x 50px 0px;
+    margin-top: 30px;
+}
